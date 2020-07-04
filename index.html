@@ -19,22 +19,18 @@
     <header class="header">
       <div class="container header-container">
         <a href="./index.html" class="logo"
-          >Web<span style="color: black;"> Studio</span></a
+          >Web <span style="color: black;">Studio</span></a
         >
-        <nav class="header__nav header-nav">
-          <ul class="header-nav__list header-nav-list">
-            <li class="header-nav-list__item header-nav-list-item">
-              <a href="./index.html" class="header-nav-list-item__link"
-                >Студия</a
-              >
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="./index.html" class="header__link current">Студия</a>
             </li>
-            <li class="header-nav-list__item">
-              <a href="./portfolio.html" class="header-nav-list-item__link"
-                >Портфолио</a
-              >
+            <li class="header__item">
+              <a href="./portfolio.html" class="header__link">Портфолио</a>
             </li>
-            <li class="header-nav-list__item">
-              <a href="" class="header-nav-list-item__link">Контакты</a>
+            <li class="header__item">
+              <a href="" class="header__link">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -43,11 +39,10 @@
             <svg class="envelope">
               <use href="./images/symbol-defs.svg#icon-envelope"></use>
             </svg>info@devstudio.com</a>
-          <a href="tel:+380961111111" class="address_phone"
-            ><svg class="smartphone">
+          <a href="tel:+380961111111" class="address_phone">
+            <svg class="smartphone">
               <use href="./images/symbol-defs.svg#icon-smartphone"></use>
-              </svg>+38 096 111 11 11</a
-          >
+            </svg>+38 096 111 11 11</a>
         </address>
       </div>
     </header>
@@ -123,30 +118,30 @@
       <section class="activity">
         <div class="container">
           <h2 class="section-tittle">Чем мы занимаемся</h2>
-          <ul class="activity__list activity-list">
-            <li class="activity-list__item">
+          <ul class="activity__list">
+            <li class="activity__item">
               <img
                 src="./images/what-we-do/box-1.jpg"
                 alt="Десктопные приложения"
                 width="100%"
               />
-              <h3 class="activity-list__tittle">Десктопные приложения</h3>
+              <h3 class="activity__tittle">Десктопные приложения</h3>
             </li>
-            <li class="activity-list__item">
+            <li class="activity__item">
               <img
                 src="./images/what-we-do/box-2.jpg"
                 alt="Мобильные приложения"
                 width="100%"
               />
-              <h3 class="activity-list__tittle">Мобильные приложения</h3>
+              <h3 class="activity__tittle">Мобильные приложения</h3>
             </li>
-            <li class="activity-list__item">
+            <li class="activity__item">
               <img
                 src="./images/what-we-do/box-3.jpg"
                 alt="Дизайнерские решения"
                 width="100%"
               />
-              <h3 class="activity-list__tittle">Дизайнерские решения</h3>
+              <h3 class="activity__tittle">Дизайнерские решения</h3>
             </li>
           </ul>
         </div>
@@ -326,54 +321,42 @@
           <ul class="customers__list">
             <li class="customers__item">
               <a href="" class="customers__link">
-                <svg class="customers__logo"
-                  width="44.27px" 
-                  height="49.23px">
+                <svg class="customers__logo" width="44.27px" height="49.23px">
                   <use href="./images/symbol-defs.svg#icon-logo-1"></use>
                 </svg>
               </a>
             </li>
             <li class="customers__item">
               <a href="" class="customers__link">
-                <svg class="customers__logo" 
-                  width="40px" 
-                  height="52px">
+                <svg class="customers__logo" width="40px" height="52px">
                   <use href="./images/symbol-defs.svg#icon-logo-2"></use>
                 </svg>
               </a>
             </li>
             <li class="customers__item">
               <a href="" class="customers__link">
-                <svg class="customers__logo" 
-                width="41px" 
-                height="42.6px">
+                <svg class="customers__logo" width="41px" height="42.6px">
                   <use href="./images/symbol-defs.svg#icon-logo-3"></use>
                 </svg>
               </a>
             </li>
             <li class="customers__item">
               <a href="" class="customers__link">
-                <svg class="customers__logo"
-                  width="79.66px" 
-                  height="42.02px">
+                <svg class="customers__logo" width="79.66px" height="42.02px">
                   <use href="./images/symbol-defs.svg#icon-logo-4"></use>
                 </svg>
               </a>
             </li>
             <li class="customers__item">
               <a href="" class="customers__link">
-                <svg class="customers__logo"
-                  width="59px" 
-                  height="47px">
+                <svg class="customers__logo" width="59px" height="47px">
                   <use href="./images/symbol-defs.svg#icon-logo-5"></use>
                 </svg>
               </a>
             </li>
             <li class="customers__item">
               <a href="" class="customers__link">
-                <svg class="customers__logo"
-                  width="88.48px" 
-                  height="45.44px">
+                <svg class="customers__logo" width="88.48px" height="45.44px">
                   <use href="./images/symbol-defs.svg#icon-logo-6"></use>
                 </svg>
               </a>
@@ -385,25 +368,24 @@
     <!-- Подвал сайта -->
     <footer class="footer">
       <div class="container">
-        <div class="footer__nav footer-nav">
-          <div class="footer-nav__logo-address">
-            <a href="index.html" class="logo footer-logo"
-              >Web<span style="color: white;"> Studio</span></a
-            >
-            <address class="address footer-address">
-              <p class="footer-address__text">
+        <div class="footer__nav">
+          <div class="footer__wrapper">
+            <a href="index.html" class="logo footer__logo"
+              >Web<span style="color: white;"> Studio</span></a>
+            <address class="address footer__address">
+              <p class="address__street-number">
                 г. Киев, пр-т Леси Украинки, 26
               </p>
-              <a href="mailto:info@devstudio.com" class="footer-address__link"
+              <a href="mailto:info@devstudio.com" class="address__mail"
                 >info@devstudio.com</a
               >
-              <a href="tel:+380961111111" class="footer-address__link"
+              <a href="tel:+380961111111" class="address__phone-number"
                 >+38 096 111 11 11</a
               >
             </address>
           </div>
-          <div class="footer-nav__social footer-nav-social">
-            <p class="footer-nav-social__tittle">присоединяйтесь</p>
+          <div class="social-wrapper">
+            <p class="social__tittle">присоединяйтесь</p>
             <ul class="social">
               <li class="social__item">
                 <a href="" class="social__link">
@@ -435,7 +417,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer-nav__subscribe">
+          <div class="footer__subscribe">
             <p>Подпишитесь на рассылку</p>
           </div>
         </div>
