@@ -630,6 +630,10 @@ ul {
 
 /*Портфолио*/
 
+.projects__container {
+  margin-bottom: 94px;
+}
+
 .projects__list {
   display: flex;
   flex-wrap: wrap;
